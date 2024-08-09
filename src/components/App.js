@@ -4,15 +4,12 @@ import Header from "./Header";
 import About from "./About";
 import ArticleList from "./ArticleList";
 
-console.log(blogData);
-
 function App() {
   return (
     <div>
-    <Header/>
-    <About/>
-    <ArticleList/>
-
+      <Header />
+      <About />
+      <ArticleList posts={blogData} />
     </div>
   );
 }
