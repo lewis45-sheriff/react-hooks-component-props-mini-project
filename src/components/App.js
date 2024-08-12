@@ -6,10 +6,16 @@ import ArticleList from "./ArticleList";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <About />
-      <ArticleList posts={blogData.posts} />
+    <div className="App">
+      <header>
+        <Header />
+      </header>
+      <aside>
+        <About />
+      </aside>
+      <main>
+        <ArticleList posts={blogData.posts} />
+      </main>
     </div>
   );
 }
