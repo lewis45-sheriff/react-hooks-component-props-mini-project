@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <About />
-      <ArticleList posts={blogData} />
+      <ArticleList posts={blogData.posts} />
     </div>
   );
 }
